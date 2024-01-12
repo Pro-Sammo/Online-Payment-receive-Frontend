@@ -14,7 +14,7 @@ import {
   Switch,
   divider,
 } from "@nextui-org/react";
-import { MoonIcon } from "./moonIcon";
+import { MoonIcon } from "./MoonIcon";
 import { SunIcon } from "./SunIcon";
 import { useTheme } from "next-themes";
 import { useDispatch, useSelector } from "react-redux";
