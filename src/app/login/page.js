@@ -32,7 +32,7 @@ const Page = () => {
 
       let result = response.data;
       toast.success(result.message);
-      window.location.reload();
+      // window.location.reload();
       setisLoading(false);
     } catch (error) {
       toast.error(error.response.data.message);
@@ -60,7 +60,7 @@ const Page = () => {
 
       let result = response.data;
       toast.success(result.message);
-      window.location.reload();
+      // window.location.reload();
       setisLoading(false);
     } catch (error) {
       toast.error(error.response.data.message);
